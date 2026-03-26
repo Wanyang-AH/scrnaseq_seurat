@@ -169,7 +169,7 @@ We provide metadata, annotation and configuration files for this data set in ./t
 cd scrnaseq_processing_seurat
 
 # Download the .zip file
-wget -O data.zip "https://www.dropbox.com/sh/pvauenviguopkue/AADVbccY9ueRVAFTeJEEPxRwa?dl=1" || curl -L "https://www.dropbox.com/sh/pvauenviguopkue/AADVbccY9ueRVAFTeJEEPxRwa?dl=1" -o data.zip
+wget -O data.tar.gz "https://www.dropbox.com/scl/fi/6s8wo5wc311g5koz2nyep/Data_Lee2020_Colorectal.tar.gz?rlkey=lqfq6llcul4ghvhhl3ytxzk04&dl=1"
 
 # Unzip and delete the .zip archive
 unzip data.zip -d Data_Lee2020_Colorectal
